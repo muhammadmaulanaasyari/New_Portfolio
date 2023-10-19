@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="shortcut icon" type="x-icon" href="assets/html5.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="color.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+</head>
+
+<body>
+  <!--- containerr start -->
+  <div class="main-container">
+
+
+    <!--- side home -->
+    <div class="aside" id="side-bar">
+      <div class="logo">
+        <a href="#"><span>B</span>rezyy</a>
+      </div>
+      <div class="nav-toggle" id="nav-toggle">
+        <span></span>
+
+      </div>
+      <div class="nav-close" id="nav-close">
+        <i class="uil uil-times nav_close""></i>
+        </div>
+        <ul class=" nav">
+          <li><a href="#home" class="nav-link "><i class="fa fa-home"></i> Home</a></li>
+          <li><a href="#about" class="nav-link"><i class="fa fa-user"></i> About</a></li>
+          <li><a href="#skill" class="nav-link"><i class="fa fa-list"></i> Skills</a></li>
+          <li><a href="#project" class="nav-link"><i class="fa fa-briefcase"></i> Portfolio</a></li>
+          <li><a href="#contact" class="nav-link"><i class="fa fa-comments"></i> Contact</a>
+            </ul>
+      </div>
+      <!--- side akhir -->
+      <!--- main content start -->
+      <div class="main-content">
+        <!--==== home section awal-->
+        <section class="section-home" id="home">
+          <div class="container">
+            <div class="row">
+              <div class="home-info padd-15">
+                <h3 id="part-1" class="hello">Hello My name is <span class="name ">Muhammad Maulana</span></h3>
+                <h3 id="part-2" class="my-profession">I' m a <span class="typing"></span></h3>
+                <p class="isi">Saya seorang programmer junior yang fokus pada pengembangan web, dan saya ingin menjadi
+                  programmer profesional.
+                </p>
+                <a href="#about" class="button"><i class="uil uil-user button_icon"></i>More About Me</a>
+              </div>
+              <div class="home-img padd-15">
+                <img src="assets/mentahan.svg" alt="" with="300px">
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--=== home section akhir===-->
+        <!--=== about section awal-->
+
+        <section id="about" class="about-section hidden">
+          <div class="container">
+            <div class="row">
+              <div class="section-title ">
+                <h2>About <span>Me</span></h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="about-content pad-15">
+                <div class="row">
+                  <div class="about-text">
+                    <h3>I'm Muhammad Maulana and <span>Web Developer</span></h3>
+                    <p>Halo! Nama saya Maulana dan saya suka menciptakan sesuatu yang hidup di internet. Ketertarikan
+                      saya terhadap web development
+                      dimulai pada tahun 2022 dimana saya tidak sengaja menonton Youtube dan disanalah muncul channel
+                      Web Programming UNPAS, tempat saya mulai belajar HTML & CSS!</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="personal-info ">
+                    <div class="row">
+                      <div class="info-item padd-15">
+                        <p>Gander: <span>Male</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Hoby : <span>Gaming</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Age : <span>17</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Phone : <span>08123200000</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Status : <span>Student</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Email : <span>Brezy@gmail.com</span></p>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--=== about section akhir-->
+        <!-- skill my experince -->
+        <section id="skill" class="skill hidden" id="skill-section">
+          <div class="container">
+            <div class="div"></div>
+            <div class="section_title">
+              <h2><span>My</span> Experince</h2>
+            </div>
+
+            <div class="skill-container grid">
+              <div class="skill-tabs">
+                <div class="skill-header skills_active" data-target="#frontend">
+                  <i class="uil uil-brackets-curly skills_icon"></i>
+
+                  <div>
+                    <h1 class="skill-title"> Frontend developer</h1>
+
+                  </div>
+                  <i class="uil uil-angle-down skills_arrow"></i>
+                </div>
+                <div class="skill-header" data-target="#backend">
+                  <i class="uil uil-server-network skills_icon"></i>
+
+                  <div>
+                    <h1 class="skill-title"> Backend developer</h1>
+                  </div>
+                  <i class="uil uil-angle-down skills_arrow"></i>
+
+                </div>
+              </div>
+
+              <div class="skill-content ">
+                <div class="skill-grup skills_active" data-content id="frontend">
+                  <div class="skill-list">
+                    <div class="skill-data">
+                      <div class="skill-titles">
+                        <h3 class="skill-name">HTML</h3>
+                        <span class="skill-number">85%</span>
+                      </div>
+                      <div class="skill-bar">
+                        <span class="skill-percentage" style="width: 85%;"></span>
+                      </div>
+                    </div>
+                    <div class="skill-data">
+                      <div class="skill-titles">
+                        <h3 class="skill-name">Bootstrap</h3>
+                        <span class="skill-number">60%</span>
+                      </div>
+                      <div class="skill-bar">
+                        <span class="skill-percentage" style="width: 60%;"></span>
+                      </div>
+                    </div>
+                    <div class="skill-data">
+                      <div class="skill-titles">
+                        <h3 class="skill-name">CSS</h3>
+                        <span class="skill-number">85%</span>
+                      </div>
+                      <div class="skill-bar">
+                        <span class="skill-percentage" style="width: 85%;"></span>
+                      </div>
+                    </div>
+                    <div class="skill-data">
+                      <div class="skill-titles">
+                        <h3 class="skill-name">JavaScript</h3>
+                        <span class="skill-number">80%</span>
+                      </div>
+
+                      <div class="skill-bar">
+                        <span class="skill-percentage" style="width: 80%;"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-group " data-content id="backend">
+                  <div class="skill-list">
+                    <div class="skill-data">
+                      <div class="skill-titles">
+                        <h3 class="skill-name">PHP</h3>
+                        <span class="skill-number">60%</span>
+                      </div>
+
+                      <div class="skill-bar">
+                        <span class="skill-percentage" style="width: 60%;"></span>
+                      </div>
+                    </div>
+                    <div class="skill-data">
+                      <div class="skill-titles">
+                        <h3 class="skill-name">MySql</h3>
+                        <span class="skill-number">80%</span>
+                      </div>
+
+                      <div class="skill-bar">
+                        <span class="skill-percentage" style="width: 80%;"></span>
+                      </div>
+                    </div>
+                    <div class="skill-data">
+                      <div class="skill-titles">
+                        <h3 class="skill-name">JavaScript</h3>
+                        <span class="skill-number">85%</span>
+                      </div>
+
+                      <div class="skill-bar">
+                        <span class="skill-percentage" style="width: 85%;"></span>
+                      </div>
+                    </div>
+                    <div class="skill-data">
+                      <div class="skill-titles">
+                        <h3 class="skill-name">Java</h3>
+                        <span class="skill-number">70%</span>
+                      </div>
+
+                      <div class="skill-bar">
+                        <span class="skill-percentage" style="width: 70%;"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- potfolio start -->
+
+        <section class="project-section" id="project">
+          <div class="container">
+            <h3 class="project-title">
+              <span>Last</span> Project
+            </h3>
+
+
+
+            <div class="project-container grid">
+              <article class="project-card">
+                <img src="assets/portfolioimg.png" alt="project image" class="project-img">
+
+
+                <div class="project-modal">
+                  <span class="project-subtitle">Web</span>
+                  <h3 class="project-isi">Login Form</h3>
+
+                  <a href="https://login.muhammadmaula59.repl.co/" class="project-btn">View Demo
+                    <i class="uil uil-external-link-alt"></i>
+                  </a>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <img src="assets/img.png" alt="project image" "  class=" project-img">
+
+                <div class="project-modal">
+                  <span class="project-subtitle">Web</span>
+                  <h3 class="project-isi">Portfolio</h3>
+
+                  <a href="#" class="project-btn">View Demo
+                    <i class="uil uil-external-link-alt"></i>
+                  </a>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <img src="assets/portfolioimg.png" alt="project image" class="project-img">
+
+
+                <div class="project-modal">
+                  <span class="project-subtitle">Web</span>
+                  <h3 class="project-isi">Login Form</h3>
+
+                  <a href="https://login.muhammadmaula59.repl.co/" class="project-btn">View Demo
+                    <i class="uil uil-external-link-alt"></i>
+                  </a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- contact me start-->
+
+        <section id="contact" class="contact-section">
+          <div class="container">
+            <div class="row">
+              <div class="judul-title padd-15">
+                <h2>Contact <span>Me</span></h2>
+              </div>
+            </div>
+            <h3 class="contact-title-isi">Have You Questions ?</h3>
+            <h4 class="contact-sub-title">I'M AT YOUR SERVICES</h4>
+            <div class="row">
+              <!-- ==== contact info start ==== -->
+
+              <div class="contact-info-item">
+                <div class="icon"><i class="fa fa-phone"></i></div>
+                <h4>call us on</h4>
+                <p>+62 812-3299-5295</p>
+              </div>
+
+              <!-- ==== contact info end ==== -->
+              <!-- ==== contact info start ==== -->
+
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-envelope"></i></div>
+                <h4>Email</h4>
+                <p>Brezy@gmail.com</p>
+              </div>
+
+              <!-- ==== contact info end ==== -->
+              <!-- ==== contact info start ==== -->
+
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+                <h4>City</h4>
+                <p>jombang</p>
+              </div>
+
+              <!-- ==== contact info end ==== -->
+              <!-- ==== contact info start ==== -->
+
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="uil uil-globe"></i></div>
+                <h4>Web</h4>
+                <p>Brezy.com</p>
+              </div>
+
+              <!-- ==== contact info end ==== -->
+            </div>
+            <h3 class="contact-title-isi padd-15">SEND ME AN EMAIL</h3>
+            <h4 class="contact-sub-title">I'M VERY RESPONSIVE MESSAGES</h4>
+
+            <!-- ===contact form=== -->
+
+            <div class="row">
+              <div class="contact-form padd-15">
+                <div class="row">
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Name">
+                    </div>
+                  </div>
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input type="email" class="form-control" placeholder="Email">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Subject">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <textarea name="" class="form-control" id="" placeholder="Message"></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <button type="submit" class="btn">Send Message</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- contact me end -->
+
+        <!-- ===footer=== -->
+
+        <footer class="footer">
+          <div class="footer-bg">
+            <div class="footer-container grid">
+              <div>
+                <h1 class="footer-title">Brezyy</h1>
+                <span class="footer-subtitle">Web Developer</span>
+              </div>
+
+              <ul class="footer-links">
+                <li>
+                  <a href="#home" class="footer-link">Home</a>
+                  <a href="#project" class="footer-link">Work</a>
+                  <a href="#contact" class="footer-link">contact</a>
+                </li>
+              </ul>
+
+              <div class="footer-socials">
+                <a href="https://www.instagram.com/brezy_27/?igshid=NGVhN2U2NjQ0Yg%3D%3D" target="_blank" class="footer-social"><i class="uil uil-instagram"></i></a>
+                <a href="https://www.youtube.com/@Brezyy27" target="_blank" class="footer-social"><i
+                    class="uil uil-youtube "></i></a>
+                <a href="" target="_blank" class="footer-social"><i class="uil uil-telegram"></i></a>
+              </div>
+            </div>
+
+            <p class="footer-copy">&#169; Brezyyyyy. All right</p>
+          </div>
+        </footer>
+      </div>
+      <!-- potfolio end -->
+      <!--- main content end -->
+      <!--- container akhir -->
+    </div>
+
+
+    <!-- === dark mode === -->
+
+    <div class="dark-mode">
+      <div class="day-night s-icon">
+        <i class="fas fa-moon"></i>
+      </div>
+    </div>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
